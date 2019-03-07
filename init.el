@@ -62,6 +62,7 @@
 (setq-default tab-width 4)
 
 (add-hook 'c-mode-hook '(lambda () (setq c-basic-offset 4)))
+(add-hook 'c++-mode-hook '(lambda () (setq c-basic-offset 4)))
 
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))    
 (setq mouse-wheel-progressive-speed nil)    
