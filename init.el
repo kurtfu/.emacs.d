@@ -41,7 +41,7 @@
 (setq visible-bell 1)
 
 (column-number-mode t)
-(global-linum-mode t)
+(global-display-line-numbers-mode t)
 
 (add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-10"))
 (set-face-attribute 'default t :font "DejaVu Sans Mono-10")
