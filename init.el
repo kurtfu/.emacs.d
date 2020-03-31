@@ -13,7 +13,8 @@
       org
       smartparens
       spacemacs-theme
-      undo-tree))
+      undo-tree
+      yasnippet))
 
 (package-initialize)
 (when (not package-archive-contents) (package-refresh-contents))
@@ -84,3 +85,6 @@
 (ac-config-default)
 
 (dumb-jump-mode)
+
+(yas-global-mode 1)
+
