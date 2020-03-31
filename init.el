@@ -26,9 +26,6 @@
     (unless (package-installed-p packs)
         (package-install packs)))
 
-(setq custom-file "~/.emacs.d/custom.el")
-(load-file custom-file)
-
 (setq load-prefer-newer t)
 
 ;;--- UI INITIALIZATIONS ------------------------------------------------------
@@ -67,9 +64,9 @@
 
 (setq c-default-style "bsd" c-basic-offset 4)
 
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))    
-(setq mouse-wheel-progressive-speed nil)    
-(setq mouse-wheel-follow-mouse 't)   
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
+(setq mouse-wheel-progressive-speed nil)
+(setq mouse-wheel-follow-mouse 't)
 (setq scroll-step 1)
 
 (windmove-default-keybindings 'meta)
