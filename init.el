@@ -55,8 +55,8 @@
 
 ;;--- EDITOR INITIALIZATIONS --------------------------------------------------
 
+(setq-default delete-trailing-lines nil)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
-(setq mode-require-final-newline t)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
